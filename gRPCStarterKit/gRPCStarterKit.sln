@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPCStarterKit.Service", "gRPCStarterKit.Service\gRPCStarterKit.Service.csproj", "{DBC49D02-02D8-45F0-B4B9-8E12329CD3C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPCStarterKit.Client", "gRPCStarterKit.Client\gRPCStarterKit.Client.csproj", "{69D02EA7-F50D-4748-B941-F9B74C9DA28A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBC49D02-02D8-45F0-B4B9-8E12329CD3C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC49D02-02D8-45F0-B4B9-8E12329CD3C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC49D02-02D8-45F0-B4B9-8E12329CD3C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC49D02-02D8-45F0-B4B9-8E12329CD3C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D02EA7-F50D-4748-B941-F9B74C9DA28A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D02EA7-F50D-4748-B941-F9B74C9DA28A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D02EA7-F50D-4748-B941-F9B74C9DA28A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D02EA7-F50D-4748-B941-F9B74C9DA28A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
