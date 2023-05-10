@@ -5,10 +5,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["gRPCStarterKit.Service/gRPCStarterKit.Service.csproj", "gRPCStarterKit.Service/"]
+COPY ["gRPCStarterKit.Service.csproj", "gRPCStarterKit.Service/"]
 RUN dotnet restore "gRPCStarterKit.Service/gRPCStarterKit.Service.csproj"
-COPY . .
 WORKDIR "/src/gRPCStarterKit.Service"
+COPY . .
 RUN dotnet build "gRPCStarterKit.Service.csproj" -c Release -o /app/build
 
 FROM build AS publish
